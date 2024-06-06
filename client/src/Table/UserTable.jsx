@@ -55,11 +55,11 @@ export default function UserTable() {
             if (response.success) {
                 toast.success(response.message)
             }
-            // console.log(response)
+            
         } catch (error) {
             console.log(error)
         }
-        // console.log(value)
+        
     }
     return (
         <>
