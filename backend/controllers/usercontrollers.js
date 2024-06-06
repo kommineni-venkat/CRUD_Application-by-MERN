@@ -31,7 +31,6 @@ const get=async(req,res)=>{
 
 }
 
-////////update user api
 const Updated=async(req,res)=>{
  try {
      const userId=req.params.id
@@ -47,7 +46,7 @@ const Updated=async(req,res)=>{
  }
 }
 
-// delet user ap
+
 const Delete=async(req,res)=>{
 try {
        const userId=req.params.id
